@@ -1,0 +1,18 @@
+/* TEAM */
+
+Developer: Micaela Marciukaitis                     
+Github:    https://github.com/Marciukaitis                       
+LinkedIn:  LinkedIn Aquí
+Location:  Montevideo, Uruguay
+
+Developer: Luis Fernando Cerda
+Github:    https://github.com/Luis-F-Cerda-P
+LinkedIn:  LinkedIn Aquí
+Location:  Santiago, Chile
+
+/* SITE */
+
+Copyright:   Mercurio Consultores 
+Last update: 2024/04/07 
+Standards:   HTML5, CSS3
+Components:  Componentes aquí 
