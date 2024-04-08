@@ -16,3 +16,5 @@ Copyright:   Mercurio Consultores
 Last update: 2024/04/07 
 Standards:   HTML5, CSS3
 Components:  Componentes aquí 
+
+Reference: https://humanstxt.org/Standard.html
