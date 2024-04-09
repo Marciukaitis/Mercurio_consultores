@@ -1,10 +1,20 @@
 /* Eric Meyer's Reset CSS v2.0 - http://meyerweb.com/eric/tools/css/reset/ */
 /* Revised 2011-10-21 to include HTML5 elements with no styling */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
+/* article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; 
+}  */
+/* 
 body {
   margin: 0;
   font-size: 1rem;
@@ -12,23 +22,76 @@ body {
   font-family: "Roboto", Arial, sans-serif;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
+} */
+* {
+  box-sizing: border-box;
 }
+
+.logotipo {
+  padding: 10px;
+  margin: auto;
+  margin-right: 10px; /* Ajusta el margen derecho para separar el logotipo del menú */
+}
+ul {
+  list-style: none;
+}
+
+.menu-header ul {
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+  width: 100wh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.menu-header li {
+  margin: 10px;
+  padding: 0px 50px 0px 50px;
+}
+.menu-header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px; /* 50 */
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.header-container {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 10px 0px 0px 0px;
+  width: 100wh;
+  margin-left: 10%;
+  border-radius: 20px 0 0 20px;
+  margin-top: 50px;
+  border-bottom: 20px solid black; /* Establece el borde inferior */
+}
+
 
 #about_us, #banner {
   aspect-ratio: 16 / 9;
