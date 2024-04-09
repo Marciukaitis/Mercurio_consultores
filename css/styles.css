@@ -79,6 +79,7 @@ table {
 #about_us>.text-section {
   padding: 3rem 3rem 2.5rem 3rem;
   line-height: normal;
+  background-color: white;
 }
 
 #about_us>.text-section>h2 {
