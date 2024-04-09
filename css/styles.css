@@ -31,15 +31,12 @@ table {
 }
 
 #about_us {
-  /* border: 1px solid red; */
   aspect-ratio: 16 / 9;
   width: 100%;
   display: flex;
 }
 
 #about_us>.text-section {
-  /* width: 50%; */
-  /* height: 100%; */
   padding: 3rem 3rem 2.5rem 3rem;
   line-height: normal;
 }
@@ -61,8 +58,8 @@ table {
   font-size: 1.125rem;
   margin: 15px 0px 20px 0px;
   text-align: justify;
-  word-spacing: 4px;
-  line-height: 1.35;
+  word-spacing: 5px;
+  line-height: 1.30;
 }
 
 #about_us>.figure-section>img {
