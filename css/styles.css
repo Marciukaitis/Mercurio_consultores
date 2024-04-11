@@ -186,8 +186,35 @@ ul {
 .person {
   margin-bottom: 20%;
 }
-.person h3 {
+.person p {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.services {
+  background-color: #a965f0;
+  display: block;
+  flex-wrap: wrap;
+}
+.services h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+  padding: 3rem 0 3rem 3rem;
+}
+.services h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.services_ {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.services_ img {
+  border-radius: 50%;
 }
