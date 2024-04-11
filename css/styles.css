@@ -49,47 +49,38 @@ table {
 }
 
 .logotipo {
-  padding: 10px;
-  margin: auto;
-  margin-right: 10px; /* Ajusta el margen derecho para separar el logotipo del menú */
+  margin-left: 6rem; /* Ajusta el margen derecho para separar el logotipo del menú */
 }
 ul {
   list-style: none;
 }
 
 .menu-header ul {
-  align-items: center;
-  margin: 5px 0px 5px 0px;
   width: 100wh;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
 }
 .menu-header li {
-  margin: 10px;
-  padding: 0px 50px 0px 50px;
+  padding: 0 3rem 0 3rem;
 }
 .menu-header a {
   text-decoration: none;
   color: black;
-  font-size: 20px; /* 50 */
-  text-align: center;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 900;
   text-wrap: nowrap;
 }
 
 .header-container {
   display: flex;
   background-color: white;
-  align-items: center;
-  padding: 10px 0px 0px 0px;
+  /* padding: 10px 0px 0px 0px; */
   width: 100wh;
   margin-left: 10%;
-  border-radius: 20px 0 0 20px;
-  margin-top: 50px;
-  border-bottom: 20px solid black; /* Establece el borde inferior */
+  border-radius: 1rem 0 0 1rem;
+  margin-top: 2.5rem;
+  border-bottom: 0.5rem solid black; /* Establece el borde inferior */
 }
 
 #about_us,
@@ -173,9 +164,9 @@ ul {
 
 .equipment h2 {
   color: #a965f0;
-  font-size: 2.5rem;
+  font-size: 40px;
   font-family: "Roboto", sans-serif;
-  padding: 20px 30px 30px 50px;
+  margin: 3rem 0 3rem 3rem;
 }
 .equipment {
   background-color: black;
@@ -198,6 +189,5 @@ ul {
 .person h3 {
   color: white;
   font-family: "Roboto", sans-serif;
-  margin-left: 10px;
   font-size: 20px;
 }
