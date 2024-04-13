@@ -259,3 +259,39 @@ ul {
 .photos img {
   width: 27%;
 }
+.container-contact {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  /* display: block; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: flex-end;
+}
+/* }
+.contact h2 {
+  font-size: 40px;
+  padding-top: 3%;
+  margin-left: 4%;
+}
+.phone h2,
+.mail h2 {
+  font-size: 14px;
+}
+.phone,
+.mail {
+  display: flex;
+  margin-left: 5%;
+}
+.logoFooter {
+  display: flex;
+} */
