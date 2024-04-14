@@ -3,8 +3,9 @@
 }
 
 .logotipo {
-  margin-left: 6rem; /* Ajusta el margen derecho para separar el logotipo del menú */
+  margin-left: 6rem;
 }
+
 ul {
   list-style: none;
 }
@@ -13,9 +14,11 @@ ul {
   width: 100wh;
   display: flex;
 }
+
 .menu-header li {
   padding: 0 3rem 0 3rem;
 }
+
 .menu-header a {
   text-decoration: none;
   color: black;
@@ -29,12 +32,11 @@ ul {
 .header-container {
   display: flex;
   background-color: white;
-  /* padding: 10px 0px 0px 0px; */
   width: 100wh;
   margin-left: 10%;
   border-radius: 1rem 0 0 1rem;
   margin-top: 2.5rem;
-  border-bottom: 0.5rem solid black; /* Establece el borde inferior */
+  border-bottom: 0.5rem solid black;
 }
 
 #about_us,
@@ -68,42 +70,37 @@ ul {
   position: absolute;
   width: 60%;
   bottom: -50px;
-  /* Adjust as needed */
   left: -50px;
-  /* Adjust as needed */
 }
 
 .svg-icon {
   width: 40%;
   position: absolute;
   bottom: 10px;
-  /* Adjust as needed */
   right: 10px;
-  /* Adjust as needed */
   transform: scaleY(-1);
-  /* Flip vertically */
 }
 
-#about_us > .text-section {
+#about_us>.text-section {
   padding: 3rem 3rem 2.5rem 3rem;
   line-height: normal;
   background-color: white;
 }
 
-#about_us > .text-section > h2 {
+#about_us>.text-section>h2 {
   color: rgb(169, 101, 240);
   font-weight: 600;
   font-size: 2.5rem;
   margin: 0px;
 }
 
-#about_us > .text-section > h3 {
+#about_us>.text-section>h3 {
   font-weight: 400;
   font-size: 1.65rem;
   margin: 0px;
 }
 
-#about_us > .text-section > p {
+#about_us>.text-section>p {
   font-size: 1.125rem;
   margin: 15px 0px 20px 0px;
   text-align: justify;
@@ -111,7 +108,7 @@ ul {
   line-height: 1.3;
 }
 
-#about_us > .figure-section > img {
+#about_us>.figure-section>img {
   width: auto;
   height: 100%;
 }
@@ -122,24 +119,29 @@ ul {
   font-family: "Roboto", sans-serif;
   margin: 3rem 0 3rem 3rem;
 }
+
 .equipment {
   background-color: black;
   display: flex;
   flex-direction: column;
 }
+
 .members {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
+
 .person img {
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
+
 .person {
   margin-bottom: 20%;
 }
+
 .person p {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -151,6 +153,7 @@ ul {
   display: block;
   flex-wrap: wrap;
 }
+
 .services h2 {
   font-family: "Roboto", sans-serif;
   color: white;
@@ -158,12 +161,14 @@ ul {
   margin-top: 0;
   padding: 3rem 0 3rem 3rem;
 }
+
 .services h3 {
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: 30px;
   font-weight: 700;
 }
+
 .container {
   flex-wrap: nowrap;
   display: flex;
@@ -178,12 +183,14 @@ ul {
   justify-content: space-evenly;
   margin-right: 9%;
 }
+
 .fila {
   display: flex;
   margin-bottom: 20px;
   justify-content: space-evenly;
   margin-right: 20%;
 }
+
 .container img {
   width: 70px;
   height: 70px;
@@ -195,15 +202,18 @@ ul {
 .container h3 {
   margin: 5px 0 0;
 }
+
 .portfolio {
   font-size: 30px;
   color: #a965f0;
   font-family: "Roboto", sans-serif;
   margin-bottom: 9%;
 }
+
 .portfolio h2 {
   margin-left: 4%;
 }
+
 .photos {
   margin-top: 3%;
   display: flex;
@@ -213,11 +223,11 @@ ul {
 .photos img {
   width: 27%;
 }
+
 .container-contact {
   background-color: black;
   color: white;
   font-family: "Roboto", sans-serif;
-  /* display: block; */
   display: flex;
   justify-content: space-between;
 }
@@ -231,21 +241,26 @@ ul {
   display: flex;
   align-items: flex-end;
 }
-/* }
+
 .contact h2 {
   font-size: 40px;
   padding-top: 3%;
   margin-left: 4%;
 }
+
 .phone h2,
 .mail h2 {
   font-size: 14px;
 }
+
 .phone,
 .mail {
   display: flex;
   margin-left: 5%;
 }
+
 .logoFooter {
   display: flex;
-} */
+}
+
+*/
