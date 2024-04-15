@@ -1,4 +1,69 @@
-* {
+.header-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: red;
+}
+
+
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 90%;
+  margin-left: 10%;
+  background-color: white;
+  transition: border-radius 0.2s ease-in-out;
+  transition: top 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  transition: margin-left 0.1s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem 0 0 1rem;
+  margin-top: 2.5rem;
+  border-bottom: 0.5rem solid black;
+}
+
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 0;
+  border-radius: 0;
+}
+
+.menu-header {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.menu-header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-wrap: nowrap;
+}
+
+.emphasis {
+  margin-left: 15%;
+}
+
+body {
+  height: 200vh;
+  /* background-color: blue; */
+}
+
+/* * {
   box-sizing: border-box;
 }
 
@@ -19,7 +84,7 @@ ul {
   padding: 0 3rem 0 3rem;
 }
 
-.menu-header a {
+.menu-header li {
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -261,6 +326,4 @@ ul {
 
 .logoFooter {
   display: flex;
-}
-
-*/
+} */
