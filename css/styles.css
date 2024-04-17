@@ -189,6 +189,7 @@ margin-left: auto;
   font-size: 40px;
   margin-top: 0;
   padding: 3rem 0 3rem 3rem;
+  font-weight: 700;
 }
 
 .services h3 {
@@ -196,40 +197,35 @@ margin-left: auto;
   color: white;
   font-size: 30px;
   font-weight: 700;
+  white-space: nowrap; 
+  margin-left: 6%;
 }
 
 .container {
   flex-wrap: nowrap;
   display: flex;
   justify-content: space-around;
-  margin: 0 20px;
+  margin: 0 11%;
   margin-bottom: 11%;
-}
+  align-items: center;
+  }
 
-.fila2 {
+.fila2 img {
+ margin-left: 55px;
+}
+.fila , .fila2{
   display: flex;
   margin-bottom: 20px;
-  justify-content: space-evenly;
-  margin-right: 9%;
+  justify-content: space-around;
+  flex: 1;
+  text-align: center;
 }
-
-.fila {
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: space-evenly;
-  margin-right: 20%;
-}
-
 .container img {
   width: 70px;
   height: 70px;
   display: flex;
-  margin-right: 2rem;
+  margin-right: 2%;
   border-radius: 50%;
-}
-
-.container h3 {
-  margin: 5px 0 0;
 }
 
 .portfolio {
