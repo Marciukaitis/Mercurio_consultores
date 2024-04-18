@@ -63,7 +63,7 @@
 }
 
 .emphasis {
-margin-left: auto;
+  margin-left: auto;
 }
 
 #banner {
@@ -256,9 +256,44 @@ margin-left: auto;
 .container-contact {
   background-color: black;
   color: white;
-  font-family: "Roboto", sans-serif;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  height: 30vh;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.container-contact h2 {
+  flex: 0 0 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.contact {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* flex: 0 0 50%; */
+  
+}
+
+.contact *  {
+  margin-left: 1rem;
+  line-height: 4rem;
+  vertical-align: middle;
+}
+
+.logoFooter {
+  display: flex;
+  align-items: flex-end;
+  /* flex: 0 0 50%; */
+}
+
+/* .container-contact {
+  background-color: black;
+  color: white;
 }
 
 .contact {
@@ -290,4 +325,4 @@ margin-left: auto;
 
 .logoFooter {
   display: flex;
-}
+} */
