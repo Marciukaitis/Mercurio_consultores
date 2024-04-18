@@ -265,10 +265,11 @@
 }
 
 .container-contact h2 {
-  flex: 0 0 100%;
   font-family: "Roboto", sans-serif;
-  color: white;
   font-size: 40px;
+  font-weight: 700;
+  color: white;
+  flex: 0 0 100%;
   margin-top: 0;
 }
 
@@ -276,19 +277,36 @@
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* flex: 0 0 50%; */
-  
 }
 
-.contact *  {
+.contact * {
   margin-left: 1rem;
   line-height: 4rem;
   vertical-align: middle;
+  font-size: 1.5rem;
 }
 
 .logoFooter {
+  margin-right: 5rem;
+}
+
+.social-icons {
   display: flex;
-  align-items: flex-end;
+  justify-content: space-around;
+  padding: 0rem 2rem;
+  /* align-items: flex-end; */
   /* flex: 0 0 50%; */
+}
+
+.social-icons * {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-wrap: nowrap;
 }
 
 /* .container-contact {
