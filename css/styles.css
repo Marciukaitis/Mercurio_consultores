@@ -1,6 +1,11 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
+}
+
 * {
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -10,9 +15,9 @@
   width: 90%;
   height: 15vh;
   margin-left: 10%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: space-evenly;
+  align-items: center; */
   padding: 2vh 5vw;
   border-radius: 1rem 0 0 1rem;
   background-color: white;
@@ -32,6 +37,44 @@
   height: 10vh;
   margin-left: 0;
   border-radius: 0;
+}
+
+.navbar .active {
+  color: rgb(169, 101, 240);
+  text-decoration: underline;
+}
+
+.navbar>div.navigation {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .social-nav {
+  margin-top: 1rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: auto;
+  align-items: center;
+  opacity: 1;
+  transition: margin-top 0.3s ease-out;
+  transition: opacity 1.0s ease-out;
+}
+
+.navbar .social-icons {
+  padding-right: 0;
+  gap: 2rem;
+  /* font-size: 200px; */
+}
+
+.navbar.fixed .social-nav {
+  margin-top: 2rem;
+  opacity: 0;
+  /* position: fixed; */
 }
 
 .navbar span {
@@ -60,10 +103,11 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   text-wrap: nowrap;
+  transition: 0.5s;
 }
 
 .emphasis {
-  margin-left: auto;
+  /* margin-left: 5%; */
 }
 
 #banner {
@@ -124,10 +168,10 @@
   font-weight: 400;
   font-size: 1.65rem;
   margin: 0px;
-  font-family: 'Open sans';
 }
 
 #about_us>.text-section>p {
+  font-family: 'Open sans', sans-serif;
   font-size: 1.125rem;
   margin: 15px 0px 20px 0px;
   text-align: justify;
@@ -255,13 +299,12 @@
 
 .container-contact {
   background-color: black;
+  padding: 40px 80px;
   color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  height: 30vh;
-  padding: 3rem 3rem 3rem 3rem;
 }
 
 .container-contact h2 {
@@ -287,7 +330,11 @@
 }
 
 .logoFooter {
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
+}
+
+.logoFooter img {
+  width: 25vw;
 }
 
 .social-icons {
