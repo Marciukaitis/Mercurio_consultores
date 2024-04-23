@@ -191,18 +191,22 @@ html {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   margin: 3rem 0 3rem 3rem;
+  font-weight: 700;
+
 }
 
 .equipment {
   background-color: black;
   display: flex;
   flex-direction: column;
+  height: 90vh;
 }
 
 .members {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  font-weight: 700;
 }
 
 .person img {
@@ -219,12 +223,14 @@ html {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  margin-top: 10%;
 }
 
 .services {
   background-color: #a965f0;
   display: block;
   flex-wrap: wrap;
+  height: 90vh;
 }
 
 .services h2 {
@@ -280,7 +286,10 @@ html {
 }
 
 .portfolio h2 {
-  margin-left: 4%;
+  font-size: 40px;
+  margin-top: 0;
+  padding: 3rem 0 3rem 3rem;
+  font-weight: 700;
 }
 
 .photos {
