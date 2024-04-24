@@ -6,16 +6,32 @@ function shiftActiveLink(event) {
   const clickedLink = event.target.classList.add("active")
 }
 
-window.addEventListener('scroll', function () {
-  var navbar = document.getElementById('navbar');
-  var scrollPosition = window.scrollY;
+const navLinks = document.querySelectorAll(".navbar a")
+const sections = document.querySelectorAll("section");
+// navLinks.forEach(link => link.addEventListener("click", shiftActiveLink))
 
-  if (scrollPosition > 20) {
+window.addEventListener('scroll', function () {
+   let top = window.scrollY;
+
+  sections.forEach(sec => {
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id')
+
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach(links => {
+        links.classList.remove('active')
+        document.querySelector('.navbar a[href*=' + id + ']').classList.add('active')
+      })
+    }
+  })
+
+  if (top > 20) {
     navbar.classList.add('fixed');
   } else {
     navbar.classList.remove('fixed');
   }
+
+
 });
 
-const navLinks = document.querySelectorAll(".navbar a")
-navLinks.forEach(link => link.addEventListener("click", shiftActiveLink))

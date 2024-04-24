@@ -247,7 +247,7 @@ html {
   color: white;
   font-size: 30px;
   font-weight: 700;
-  white-space: nowrap; 
+  white-space: nowrap;
   margin-left: 6%;
 }
 
@@ -258,18 +258,20 @@ html {
   margin: 0 11%;
   margin-bottom: 11%;
   align-items: center;
-  }
+}
 
 .fila2 img {
- margin-left: 55px;
+  margin-left: 55px;
 }
-.fila , .fila2{
+
+.fila, .fila2 {
   display: flex;
   margin-bottom: 20px;
   justify-content: space-around;
   flex: 1;
   text-align: center;
 }
+
 .container img {
   width: 70px;
   height: 70px;
@@ -300,6 +302,11 @@ html {
 
 .photos img {
   width: 27%;
+  transition: all 0.5s;
+}
+
+.photos img:hover {
+  filter: blur(1px) grayscale(90%);
 }
 
 .container-contact {
@@ -335,11 +342,12 @@ html {
 }
 
 .logoFooter {
-  /* margin-right: 5rem; */
+  
 }
 
 .logoFooter img {
   width: 25vw;
+  margin-bottom: 20px
 }
 
 .social-icons {
