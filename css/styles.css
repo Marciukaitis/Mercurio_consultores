@@ -333,11 +333,12 @@ html {
 }
 
 .logoFooter {
-  /* margin-right: 5rem; */
+  
 }
 
 .logoFooter img {
   width: 25vw;
+  margin-bottom: 20px
 }
 
 .social-icons {
